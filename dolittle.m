@@ -7,7 +7,6 @@ U=zeros(N,N);
 for a = 1:N
     L(a,a)=1;
 end
-
 U(1,:)=A(1,:);
 L(:,1)=A(:,1)/U(1,1);
 for i = 2:N
